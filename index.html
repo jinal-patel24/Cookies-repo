@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Storage Manager</h2>
+    <label>Key: <input type="text" id="key"></label>
+    <label>Value: <input type="text" id="value"></label>
+    <br><br>
+    
+    <h3>Cookies</h3>
+    <button onclick="setItem('cookie')">Set Cookie</button>
+    <button onclick="getItem('cookie')">Get Cookie</button>
+    <button onclick="removeItem('cookie')">Remove Cookie</button>
+    
+    <h3>Session Storage</h3>
+    <button onclick="setItem('session')">Set Session Storage</button>
+    <button onclick="getItem('session')">Get Session Storage</button>
+    <button onclick="removeItem('session')">Remove Session Storage</button>
+    
+    <h3>Local Storage</h3>
+    <button onclick="setItem('local')">Set Local Storage</button>
+    <button onclick="getItem('local')">Get Local Storage</button>
+    <button onclick="removeItem('local')">Remove Local Storage</button>
+</body>
+</html>
